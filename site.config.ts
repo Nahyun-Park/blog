@@ -2,8 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  // TODO: 여기에 본인의 Notion 페이지 ID를 입력하세요
-  rootNotionPageId: '7875426197cf461698809def95960ebf',
+  rootNotionPageId: '21eadc32945b800a9d65e251f3b223c9',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
