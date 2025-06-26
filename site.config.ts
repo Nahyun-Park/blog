@@ -2,6 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
+  // TODO: 여기에 본인의 Notion 페이지 ID를 입력하세요
   rootNotionPageId: '7875426197cf461698809def95960ebf',
 
   // if you want to restrict pages to a single notion workspace (optional)
@@ -9,17 +10,17 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  name: '나현의 블로그', // TODO: 본인의 블로그 이름으로 변경
+  domain: 'nahyunpark.com', // TODO: 본인의 도메인으로 변경
+  author: '나현', // TODO: 본인의 이름으로 변경
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: '개발과 일상을 기록하는 블로그', // TODO: 본인의 블로그 설명으로 변경
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  twitter: '', // TODO: 본인의 트위터 계정
+  github: 'nahyunpark', // TODO: 본인의 GitHub 계정
+  linkedin: '', // TODO: 본인의 LinkedIn 계정
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
